@@ -1,20 +1,21 @@
 package com.lcwd.hotel.service.services;
 
+
+
 import java.util.List;
 
 import com.lcwd.hotel.service.entities.Hotel;
 
 public interface HotelService {
-    
 
-    // create
+    //create
+
     Hotel create(Hotel hotel);
 
-
-    // getall
+    //get all
     List<Hotel> getAll();
 
     //get single
-    Hotel get(String hotelId);
+    Hotel get(String id);
 
 }
